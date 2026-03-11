@@ -1,0 +1,62 @@
+.sd-widget-block-placeholder {
+    border: 2px dashed #c0c0c0;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    background: #f9f9f9;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.sd-widget-block-placeholder.has-widget {
+    border-color: #2271b1;
+    border-style: solid;
+    background: #f0f6fc;
+}
+
+.sd-widget-block-placeholder .dashicons {
+    font-size: 36px;
+    width: 36px;
+    height: 36px;
+    color: #2271b1;
+}
+
+.sd-widget-block-placeholder h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+
+.sd-widget-block-placeholder .sd-widget-params-summary {
+    font-size: 12px;
+    color: #757575;
+    margin-top: 4px;
+}
+
+.sd-widget-block-placeholder .sd-widget-tier-badge {
+    display: inline-block;
+    font-size: 11px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    color: #555;
+}
+
+.sd-widget-block-placeholder .sd-widget-tier-badge.tier-free { background: #d4edda; color: #155724; }
+.sd-widget-block-placeholder .sd-widget-tier-badge.tier-basic { background: #cce5ff; color: #004085; }
+.sd-widget-block-placeholder .sd-widget-tier-badge.tier-pro { background: #fff3cd; color: #856404; }
+.sd-widget-block-placeholder .sd-widget-tier-badge.tier-enterprise { background: #f8d7da; color: #721c24; }
+
+.sd-widget-block-no-appid {
+    border-color: #d63638;
+    background: #fcf0f1;
+}
+
+.sd-widget-block-no-appid p {
+    color: #d63638;
+    margin: 0;
+}

@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "schooldigger/widget",
+    "version": "1.0.0",
+    "title": "SchoolDigger Widget",
+    "category": "embed",
+    "icon": "welcome-learn-more",
+    "description": "Embed an interactive SchoolDigger school data widget.",
+    "keywords": [ "school", "education", "ranking", "map", "district", "K-12", "test scores" ],
+    "textdomain": "schooldigger-widgets",
+    "supports": {
+        "html": false,
+        "align": [ "wide", "full" ]
+    },
+    "attributes": {
+        "widgetType": {
+            "type": "string",
+            "default": ""
+        },
+        "params": {
+            "type": "object",
+            "default": {}
+        },
+        "config": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./editor.css"
+}
