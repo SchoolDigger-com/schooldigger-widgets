@@ -7,6 +7,7 @@ Stable tag: 1.0.5
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+GitHub: https://github.com/SchoolDigger-com/schooldigger-widgets
 
 Embed interactive SchoolDigger school data widgets on your WordPress site - info cards, rankings, search, maps, and charts.
 
