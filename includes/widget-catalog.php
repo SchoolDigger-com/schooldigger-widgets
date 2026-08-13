@@ -79,7 +79,7 @@ function sd_widgets_get_catalog() {
                     array( 'value' => 'simple',  'label' => 'ZIP Code or City' ),
                     array( 'value' => 'address', 'label' => 'Full Address (radius)' ),
                 )),
-                array( 'name' => 'initialState',    'dataAttr' => 'initial-state',    'displayName' => 'Default State',      'type' => 'stateSelect' ),
+                array( 'name' => 'initialState',    'dataAttr' => 'initial-state',    'displayName' => 'Default State',      'type' => 'stateSelect', 'description' => 'Required at search time in ZIP/City mode. Optional in Full Address mode, where leaving it blank also returns nearby schools in neighboring states.' ),
                 array( 'name' => 'initialZip',      'dataAttr' => 'initial-zip',      'displayName' => 'Initial ZIP Code',   'type' => 'text' ),
                 array( 'name' => 'initialCity',     'dataAttr' => 'initial-city',     'displayName' => 'Initial City',       'type' => 'text' ),
                 array( 'name' => 'initialStreet',   'dataAttr' => 'initial-street',   'displayName' => 'Initial Street',     'type' => 'text', 'description' => 'For address mode' ),
@@ -245,7 +245,7 @@ function sd_widgets_get_catalog() {
                 array( 'name' => 'centerAddress',        'dataAttr' => 'center-address',         'displayName' => 'Center Address',          'type' => 'text', 'description' => 'For "Address" mode' ),
                 array( 'name' => 'centerLatitude',       'dataAttr' => 'center-latitude',        'displayName' => 'Latitude',                'type' => 'text', 'description' => 'For "Lat/Long" mode' ),
                 array( 'name' => 'centerLongitude',      'dataAttr' => 'center-longitude',       'displayName' => 'Longitude',               'type' => 'text', 'description' => 'For "Lat/Long" mode' ),
-                array( 'name' => 'centerState',          'dataAttr' => 'center-state',           'displayName' => 'State',                   'type' => 'stateSelect' ),
+                array( 'name' => 'centerState',          'dataAttr' => 'center-state',           'displayName' => 'Limit to State',          'type' => 'stateSelect', 'description' => 'Optional. Restrict results to a single state. Leave blank to include schools from neighboring states - useful near a state line.' ),
                 array( 'name' => 'radiusMiles',          'dataAttr' => 'radius-miles',           'displayName' => 'Search Radius',           'type' => 'enum', 'default' => '5', 'options' => array(
                     array( 'value' => '1',  'label' => '1 mile' ),
                     array( 'value' => '2',  'label' => '2 miles' ),
