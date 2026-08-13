@@ -3,7 +3,7 @@
  * Plugin Name: SchoolDigger Widgets
  * Plugin URI:  https://widgets.schooldigger.com/wordpress
  * Description: Embed interactive SchoolDigger school data widgets on your WordPress site. Display school info cards, rankings, search tools, maps, and test score charts.
- * Version:     1.0.5
+ * Version:     1.0.6
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author:      SchoolDigger
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'SD_WIDGETS_VERSION', '1.0.5' );
+define( 'SD_WIDGETS_VERSION', '1.0.6' );
 define( 'SD_WIDGETS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SD_WIDGETS_URL', plugin_dir_url( __FILE__ ) );
 define( 'SD_WIDGETS_BASENAME', plugin_basename( __FILE__ ) );

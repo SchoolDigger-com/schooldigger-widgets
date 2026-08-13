@@ -2,8 +2,8 @@
 Contributors: schooldigger
 Tags: school, education, widgets, ranking, K-12
 Requires at least: 6.0
-Tested up to: 6.9
-Stable tag: 1.0.5
+Tested up to: 7.1
+Stable tag: 1.0.6
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -106,6 +106,11 @@ To rebuild from source:
 This uses [@wordpress/scripts](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/) (webpack-based) to compile `src/index.js` and `src/edit.js` into `build/index.js`.
 
 == Changelog ==
+
+= 1.0.6 =
+* Tested against WordPress 7.1
+* Updated the Nearby Schools Map "State" setting: it is now labelled "Limit to State" and is optional. Leaving it blank returns schools from neighboring states, which gives better results near a state line.
+* Clarified that the School Finder "Default State" setting is required in ZIP/City mode but optional in Full Address mode
 
 = 1.0.5 =
 * Renamed shortcode from [schooldigger] to [sd_widgets] for unique prefixing per WordPress.org guidelines
